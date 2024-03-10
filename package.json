@@ -7,8 +7,9 @@
     ]
   },
   "devDependencies": {
-    "@redwoodjs/core": "7.1.1",
-    "@redwoodjs/project-config": "7.1.1"
+    "@redwoodjs/auth-dbauth-setup": "7.1.2",
+    "@redwoodjs/core": "7.1.2",
+    "@redwoodjs/project-config": "7.1.2"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
