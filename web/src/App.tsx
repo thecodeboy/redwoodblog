@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react'
+
 import { FatalErrorBoundary, RedwoodProvider } from '@redwoodjs/web'
 import { RedwoodApolloProvider } from '@redwoodjs/web/apollo'
 
@@ -15,6 +17,7 @@ const App = () => (
       <AuthProvider>
         <RedwoodApolloProvider useAuth={useAuth}>
           <Routes />
+          <Analytics />
         </RedwoodApolloProvider>
       </AuthProvider>
     </RedwoodProvider>
